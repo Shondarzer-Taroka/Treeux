@@ -14,8 +14,7 @@ body {
     background: #fff;
 }
 
-.navigation {
-
+header {
     width: 100%;
     position: absolute;
     top: 0;
@@ -27,8 +26,22 @@ body {
     z-index: 100;
 }
 
-.parallax-container {
-    overflow-x: hidden;
-    display: flex;
-    height: 100vh;
+.logo {
+    font-size: 2rem;
+    color: #359381;
+    pointer-events: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #359381;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-family: 600;
+}
+
+.navigation a:hover {
+    background-color: #359381;
+    color: #fff;
 }
