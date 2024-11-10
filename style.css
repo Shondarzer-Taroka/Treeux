@@ -41,7 +41,7 @@ header {
     font-family: 600;
 }
 
-.navigation a:hover {
+.navigation a:hover , .navigation a.active{
     background-color: #359381;
     color: #fff;
 }
