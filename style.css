@@ -5,4 +5,29 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #fff;
+}
+
+.navigation {
+
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parallax-container {
+    overflow-x: hidden;
+    display: flex;
+    height: 100vh;
 }
