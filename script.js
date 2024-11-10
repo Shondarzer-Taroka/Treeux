@@ -10,8 +10,10 @@ window.addEventListener('scroll', () => {
 
     text.style.marginTop = value * 2.5 + 'px'
     if (value > 400) {
-   text.style.display = 'none'
+        text.style.display = 'none'
     } else {
         text.style.display = 'block'
     }
+
+    leaf.style.top = value * -1.5 + 'px'
 })
