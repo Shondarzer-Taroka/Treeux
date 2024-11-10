@@ -9,11 +9,23 @@ window.addEventListener('scroll', () => {
     console.log(value);
 
     text.style.marginTop = value * 2.5 + 'px'
+    leaf.style.top = value * -1.5 + 'px'
+    leaf.style.left = value * 1.5 + 'px'
+    hill5.style.left = value * 1.5 + 'px'
+    hill4.style.left = value * -1.5 + 'px'
+    hill1.style.top = value * 1 + 'px'
     if (value > 400) {
+
         text.style.display = 'none'
     } else {
         text.style.display = 'block'
     }
 
-    leaf.style.top = value * -1.5 + 'px'
+    if (value > 200) {
+        hill1.style.display = 'none'
+    } else {
+       hill1.style.display = 'block'
+    }
+
+
 })
