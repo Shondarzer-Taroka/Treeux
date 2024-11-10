@@ -74,6 +74,7 @@ header {
 
 .sec {
     position: relative;
-    background-color: #003329;
+    /* background-color: #003329; */
     padding: 100px;
+    /* width: 100%; */
 }
