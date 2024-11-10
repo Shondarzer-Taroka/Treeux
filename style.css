@@ -42,12 +42,13 @@ header {
     font-family: 600;
 }
 
-.navigation a:hover , .navigation a.active{
+.navigation a:hover,
+.navigation a.active {
     background-color: #359381;
     color: #fff;
 }
 
-.parallax{
+.parallax {
     position: relative;
     display: flex;
     justify-content: center;
@@ -55,17 +56,24 @@ header {
     height: 100vh;
 
 }
-.parallax #text{
+
+.parallax #text {
     font-size: 5rem;
     position: absolute;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0,.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 
 }
 
-.parallax img{
-    position:absolute;
+.parallax img {
+    position: absolute;
     top: 0;
     left: 0;
-    pointer-events: none ;
+    pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    background-color: #003329;
+    padding: 100px;
 }
