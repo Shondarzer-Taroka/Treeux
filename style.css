@@ -52,5 +52,11 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+
+}
+.parallax #text{
+    font-size: 5rem;
+    position: absolute;
+    color: #333;
+
 }
